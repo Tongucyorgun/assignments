@@ -1,0 +1,8 @@
+def armstrong_number(a):
+  sayılar = []
+  for i in str(a):
+    sayılar.append(int(i) ** len(str(a)))
+  if sum(sayılar) == a:
+    print(a, 'is an Armstrong number.')
+  else :
+    print(a, 'is not an Armstrong number.')
